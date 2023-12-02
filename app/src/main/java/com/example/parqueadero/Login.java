@@ -29,7 +29,7 @@ public class Login extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 if (texto1.getText().toString().equals("pepito@gmail.com") && texto2.getText().toString().equals("12345")){
-                    Intent smenu = new Intent(Login.this, Menus.class);
+                    Intent smenu = new Intent(Login.this, MenuDos.class);
                     startActivity(smenu);
                 } else {
                     Toast.makeText(Login.this, "Usuario invalido", Toast.LENGTH_LONG).show();

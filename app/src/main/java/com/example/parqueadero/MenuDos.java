@@ -19,15 +19,12 @@ import com.example.parqueadero.tipovehiculo.Vistatipovehiculo;
 import com.example.parqueadero.trabajador.Vistatrabajador;
 import com.example.parqueadero.usuario.Vistausuario;
 
-
-public class Menus extends AppCompatActivity {
+public class MenuDos extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_menus);
-        setTitle("PKM");
-        getSupportActionBar().setSubtitle("Menus");
+        setContentView(R.layout.activity_menu_dos);
     }
 
     @Override
@@ -38,6 +35,8 @@ public class Menus extends AppCompatActivity {
 
     @Override
     public boolean onOptionsItemSelected(@NonNull MenuItem item) {
+        //return super.onOptionsItemSelected(item);
+
         Intent intent = null;
 
         if (item.getItemId() == R.id.MCiudad) {
@@ -69,5 +68,7 @@ public class Menus extends AppCompatActivity {
         }
 
         return true;
+
     }
+
 }
