@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:id="@+id/MCiudad"
+        android:title="Ciudad"
+        tools:ignore="HardcodedText" />
+    <item android:id="@+id/MDepartamento"
+        android:title="Departamento"
+        tools:ignore="HardcodedText" />
+    <item android:id="@+id/MPlan"
+        android:title="Plan"
+        tools:ignore="HardcodedText" />
+    <item android:id="@+id/MReserva"
+        android:title="Reserva"
+        tools:ignore="HardcodedText" />
+    <item android:id="@+id/MSede"
+        android:title="Sede"
+        tools:ignore="HardcodedText" />
+    <item android:id="@+id/MServicio"
+        android:title="Servicio"
+        tools:ignore="HardcodedText" />
+    <item android:id="@+id/MTipoTrabajador"
+        android:title="Tipo trabajador"
+        tools:ignore="HardcodedText" />
+    <item android:id="@+id/MTipoVehiculo"
+        android:title="Tipo vehiculo"
+        tools:ignore="HardcodedText" />
+    <item android:id="@+id/MTrabajador"
+        android:title="Trabajador"
+        tools:ignore="HardcodedText" />
+    <item android:id="@+id/MUsuario"
+        android:title="Usuario"
+        tools:ignore="HardcodedText" />
+    <item android:id="@+id/MVehiculo"
+        android:title="Vehiculo"
+        tools:ignore="HardcodedText" />
+</menu>

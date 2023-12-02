@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">parqueadero</string>
+    <string name="textuser">Ingresa tu E-mail</string>
+    <string name="textpassword">Ingresa tu contraseña</string>
+    <string name="btnvalidar">Ingresar</string>
+
+
+</resources>
