@@ -10,9 +10,9 @@ import com.android.volley.toolbox.Volley;
 
 import org.json.JSONArray;
 
-public class ApiDepartamento {
+public class ApiCiudad {
 
-    private static final String baseUrl = "https://juandavidzapata.000webhostapp.com/parqueaderoapi/departamento.php/";
+    private static final String baseUrl = "https://juandavidzapata.000webhostapp.com/parqueaderoapi/ciudad.php/";
 
     public interface ApiCallback {
         void onSuccess(JSONArray result);
@@ -21,12 +21,12 @@ public class ApiDepartamento {
 
     private final RequestQueue requestQueue;
 
-    public ApiDepartamento(Context context){
+    public ApiCiudad(Context context){
         requestQueue = Volley.newRequestQueue(context.getApplicationContext());
     }
 
-    public void obtenerDepartamentos(final ApiCallback callback){
-        String url = baseUrl + "departamento";
+    public void obtenerCiudades(final ApiCallback callback){
+        String url = baseUrl + "ciudad";
         JsonArrayRequest jsonArrayRequest = new JsonArrayRequest(
                 Request.Method.GET,
                 url,

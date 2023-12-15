@@ -7,16 +7,14 @@
     tools:context=".tipovehiculo.Vistatipovehiculo">
 
     <TextView
-        android:id="@+id/textView2"
-        android:layout_width="228dp"
-        android:layout_height="231dp"
-        android:text="Vista tipo vehiculo"
-        android:textAlignment="center"
-        android:textSize="48sp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        android:id="@+id/resultTextViewTipoVehiculo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="16dp"
+        android:text="Resultados de la API - Tipo de Vehículo"
+        android:textSize="18sp"
+        android:textColor="@android:color/black"
+        tools:ignore="MissingConstraints" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -15,6 +15,12 @@
         android:theme="@style/Theme.Parqueadero"
         tools:targetApi="31">
         <activity
+            android:name=".servicio.Vistaservicio"
+            android:exported="false" />
+        <activity
+            android:name=".departamento.Vistadepartamento"
+            android:exported="false" />
+        <activity
             android:name=".MenuDos"
             android:exported="false" />
         <activity
@@ -33,9 +39,6 @@
             android:name=".tipotrabajador.Vistatipotrabajador"
             android:exported="false" />
         <activity
-            android:name=".servicio.Vistaservicio"
-            android:exported="false" />
-        <activity
             android:name=".sede.Vistasede"
             android:exported="false" />
         <activity
@@ -43,9 +46,6 @@
             android:exported="false" />
         <activity
             android:name=".plan.Vistaplan"
-            android:exported="false" />
-        <activity
-            android:name=".departamento.Vistadepartamento"
             android:exported="false" />
         <activity
             android:name=".ciudad.Vistaciudad"
