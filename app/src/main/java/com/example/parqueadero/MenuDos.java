@@ -18,6 +18,7 @@ import com.example.parqueadero.tipotrabajador.Vistatipotrabajador;
 import com.example.parqueadero.tipovehiculo.Vistatipovehiculo;
 import com.example.parqueadero.trabajador.Vistatrabajador;
 import com.example.parqueadero.usuario.Vistausuario;
+import com.example.parqueadero.vehiculo.Vistavehiculo;
 
 public class MenuDos extends AppCompatActivity {
 
@@ -60,7 +61,7 @@ public class MenuDos extends AppCompatActivity {
         } else if (item.getItemId() == R.id.MUsuario) {
             intent = new Intent(this, Vistausuario.class);
         } else if (item.getItemId() == R.id.MVehiculo) {
-            intent = new Intent(this, Vistausuario.class);
+            intent = new Intent(this, Vistavehiculo.class);
         }
 
         if (intent != null) {
